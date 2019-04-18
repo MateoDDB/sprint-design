@@ -49,16 +49,17 @@ body {
 
 @media screen and (max-width:640px) {
   .logo-mynote {
-    width: 200px;
+    width: 230px;
   }
 
   .banner p {
-    font-size: 16px;
+    font-size: 18px;
     opacity: 1;
+    margin: 10px 10px 30px 10px;
   }
 
   .logo {
-    width: 100px;
+    width: 130px;
     margin: 0px auto 0 auto;
   }
 }
