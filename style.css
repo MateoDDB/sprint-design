@@ -39,9 +39,25 @@ body {
 
 .logo {
   width: 200px;
-  margin: 10px auto 0 auto;
+  margin: 30px auto 0 auto;
 }
 
 .logo-mynote {
   width:500px;
+}
+
+@media screen and (max-width:640px) {
+  .logo-mynote {
+    width: 200px;
+  }
+
+  .banner p {
+    font-size: 16px;
+    opacity: 1;
+  }
+
+  .logo {
+    width: 100px;
+    margin: 0px auto 0 auto;
+  }
 }
